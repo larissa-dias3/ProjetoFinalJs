@@ -49,5 +49,13 @@ body{
     color: white;
     font-family: Viking;
     font-size: 50px;
-    margin-bottom: 50px;
+}
+.corvo{
+    display: flex;
+    align-items: center;
+}
+img{
+    display: block;
+    transform: scale(0.5);
+    object-fit: cover;
 }
