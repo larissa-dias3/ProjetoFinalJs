@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Viking;
+    src: url('fonts/VIKING-N.TTF');
+}
 /* reset css */
 * {
     box-sizing: border-box;
@@ -8,4 +12,32 @@
 
 a, a:link, a:visited {
     text-decoration: none;
+}
+body{
+    background-color: #4A4341;
+}
+.wrapper{
+    display: flex;/*todos os elementos agora são itens de um container flexível*/
+    flex-direction: column;
+    align-items: center;
+
+    min-height: 100vh;/*100% da tela do navegador*/
+}
+
+.btnBebidas, 
+.btnLanches{
+    background-color: #DAA520;
+    color: white;
+    font-family: Viking;
+}
+
+.logoName{
+    background-color:#DAA520 ;
+    font-family: Viking;
+
+} 
+
+.odimName{
+    color: white;
+    font-family: Viking;
 }
