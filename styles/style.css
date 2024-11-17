@@ -29,15 +29,25 @@ body{
     background-color: #DAA520;
     color: white;
     font-family: Viking;
+    font-size: 34px;
+    border-radius: 35px;
+    padding: 20px;
+    border: none;
+}
+.btnLanches{
+    margin-top: 20px;
 }
 
 .logoName{
-    background-color:#DAA520 ;
+    color: #DAA520 ;
     font-family: Viking;
-
+    font-size: 100px;
+    margin-top: 90px;
 } 
 
 .odimName{
     color: white;
     font-family: Viking;
+    font-size: 50px;
+    margin-bottom: 50px;
 }
