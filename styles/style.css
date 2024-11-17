@@ -9,3 +9,15 @@
 a, a:link, a:visited {
     text-decoration: none;
 }
+body{
+    background-color: #4A4341;
+}
+.btn1{
+    background-color: #DAA520;
+}
+.btn2{
+    background-color: #DAA520;
+}
+.logoName{
+    background-color:#DAA520 ;
+} /*mudar cor apenas da letra*/
