@@ -1,10 +1,18 @@
 .container{
-    background-color: #DAA520 ; ;
+    background-color: #DAA520;
 }
 header{
-    background-color: tomato;
-    width: 150px;
-    height: 250px; /*quero que ele ocupe uma metade da tela*/
+    width: 100%;
+    height: 100px;
+    background-image: url('../design/coffee-bg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 footer{
     background-color: rgb(216, 159, 159);
