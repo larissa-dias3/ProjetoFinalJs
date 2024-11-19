@@ -1,0 +1,18 @@
+.container{
+    background-color: #DAA520 ; ;
+}
+header{
+    background-color: tomato;
+    width: 150px;
+    height: 250px; /*quero que ele ocupe uma metade da tela*/
+}
+footer{
+    background-color: rgb(216, 159, 159);
+    width: 150px;
+    height: 200px;
+   
+} /*quero que ele ocupe uma pequena parte em baixo */ 
+h1{
+    display: flex;
+    align-items: center;
+}
