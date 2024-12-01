@@ -5,7 +5,6 @@ html, body {
 body{
     display: grid;
     place-items: center;
-    background-color: var(--cor-secundaria);
     font-family: "Silkscreen";
 }
 
