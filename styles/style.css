@@ -1,51 +1,65 @@
-@font-face {
-    font-family: Viking;
-    src: url('fonts/VIKING-N.TTF');
+html, body {
+    height: 100%;
 }
 
 body{
-    background-color: #4A4341;
+    display: grid;
+    place-items: center;
+    background-color: var(--cor-secundaria);
+    font-family: "Silkscreen";
 }
-.wrapper{
-    display: flex;/*todos os elementos agora são itens de um container flexível*/
+
+.wrapper {
+    display: grid;
+    place-items: center;
+    gap: 60px;
+}
+
+.logo {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+
+    gap: 8px;
+}
+
+.botoes {
+    display: flex;
     flex-direction: column;
-    align-items: center;
-
-    min-height: 100vh;/*100% da tela do navegador*/
+    gap: 20px;
 }
 
-.btnBebidas, 
-.btnLanches{
-    background-color: #DAA520;
-    color: white;
-    font-family: Viking;
-    font-size: 34px;
-    border-radius: 35px;
-    padding: 20px;
+.btn-bebidas, .btn-lanches {
+    background-color: var(--cor-primaria);
+    border-radius: 14px;
     border: none;
-}
-.btnLanches{
-    margin-top: 20px;
+    box-shadow: 4px 4px 0 0 var(--cor-terciaria);
 }
 
-.logoName{
-    color: #DAA520 ;
-    font-family: Viking;
-    font-size: 100px;
-    margin-top: 90px;
+.btn-bebidas:hover, .btn-lanches:hover {
+    background-color: var(--cor-fonte-secundaria);
+    box-shadow: 4px 4px 0 0 var(--cor-fonte-terciaria);
+}
+
+.btn-bebidas:hover a, .btn-lanches:hover a{
+    color: var(--cor-primaria);
+}
+
+.btn-bebidas a, .btn-lanches a {
+    display: block;
+    color: var(--cor-fonte-primaria);
+    font-family: "Quantico";
+    font-size: 32px;
+    padding: 10px 30px;
+}
+
+.logo-name {
+    color: var(--cor-fonte-secundaria);
+    font-size: 85px;
+    text-shadow:  var(--cor-fonte-terciaria) 2px 2px 0;
 } 
 
-.odimName{
-    color: white;
-    font-family: Viking;
-    font-size: 50px;
-}
-.corvo{
-    display: flex;
-    align-items: center;
-}
-img{
+img {
     display: block;
-    transform: scale(0.5);
-    object-fit: cover;
+    width: 200px;
 }

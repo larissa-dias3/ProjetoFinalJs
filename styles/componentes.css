@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Silkscreen";
+    src: url('../fonts/Silkscreen/Silkscreen-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Quantico";
+    src: url('../fonts/Quantico/Quantico-Regular.ttf');
+}
+
+:root {
+    --cor-primaria: rgb(254, 254, 254);
+    --cor-terciaria: rgb(172, 169, 169);
+    --cor-secundaria: rgb(60, 60, 60);
+
+    --cor-fonte-primaria: rgb(37, 33, 37);
+    --cor-fonte-secundaria: rgb(208 148 234);
+    --cor-fonte-terciaria: rgb(137, 95, 155);
+
+    --tamanho-fonte: 16px;
+}

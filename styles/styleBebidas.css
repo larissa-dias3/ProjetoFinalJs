@@ -9,18 +9,54 @@ header{
     background-repeat: no-repeat;
 }
 
+.grade {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
 img {
     display: block;
-    width: 100%;
-    height: 100%;
 }
 footer{
-    background-color: rgb(216, 159, 159);
-    width: 150px;
-    height: 200px;
-   
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 } /*quero que ele ocupe uma pequena parte em baixo */ 
-h1{
+
+footer a {
     display: flex;
+    justify-content: center;
     align-items: center;
+    gap: 10px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    padding-block: 8px;
+    background-color: var(--cor-fonte-secundaria);
+    color: var(--cor-fonte-primaria); 
+}
+
+footer a p {
+    font-size: 22px;
+    font-family: "Quantico", sans-serif;
+    
+}
+
+footer a svg {
+    width: 28px;
+    height: 28px;
+}
+
+footer a svg path {
+    fill: var(--cor-fonte-primaria);
+}
+
+footer a:hover {
+    background-color: var(--cor-fonte-terciaria);
+    color: var(--cor-primaria); 
+}
+
+footer a:hover svg path{
+    fill: var(--cor-primaria);
 }
