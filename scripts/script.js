@@ -36,3 +36,6 @@ function buscaBebidas(){
     }
     xhr.send();
 }
+//quero pegar por DOM quando eu clicar nos botoes do html
+document.getElementById('btn-lanches').addEventListener('click', buscaLanches);
+document.getElementById('btn-bebidas').addEventListener('click', buscaBebidas);
