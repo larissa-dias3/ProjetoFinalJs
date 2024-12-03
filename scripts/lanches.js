@@ -1,25 +1,11 @@
-// function buscaLanches(){
-//     fetch('http://localhost:3000/lanches')
-//     .then(function(response){
-//         return response.json();
-//     })
-//     .then(function(lanches){
-//         var lista = document.getElementById('lista-lanches');
-//         lista.innerHTML = '';
-//         for(var i = 0; i < lanches.length; i++){
-//             var li = document.createElement('li');
-//             li.innerHTML = lanches[i].nome + ' - R$ ' + lanches[i].preco;
-//             lista.appendChild(li);
-//         }
-//     });
-// }
-
 document.addEventListener("DOMContentLoaded", () => {
     buscarLanches();
 });
 
 function buscarLanches(){
-    fetch('http://localhost:3000/lanches/')
+    // URL deve ser alterada para o endereço do seu servidor
+    // fetch('http://localhost:3000/lanches')
+    fetch('https://ominous-space-enigma-q44p6xgpjgxfxjqv-3000.app.github.dev/lanches')
     .then(function(response) {
         return response.json();
     })

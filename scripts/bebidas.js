@@ -3,7 +3,9 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function buscarBebidas(){
-    fetch('http://localhost:3000/bebidas')
+    // URL deve ser alterada para o endereço do seu servidor
+    // fetch('http://localhost:3000/bebidas')
+    fetch('https://ominous-space-enigma-q44p6xgpjgxfxjqv-3000.app.github.dev/bebidas')
     .then(function(response) {
         return response.json();
     })
