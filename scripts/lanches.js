@@ -1,11 +1,12 @@
+//espera a pagina terminar de carregar para chamar a função buscarLanches
 document.addEventListener("DOMContentLoaded", () => {
     buscarLanches();
 });
-
+//requisição para o servidor com fetch
 function buscarLanches(){
     // URL deve ser alterada para o endereço do seu servidor
     // fetch('http://localhost:3000/lanches')
-    fetch('https://ominous-space-enigma-q44p6xgpjgxfxjqv-3000.app.github.dev/lanches')
+    fetch('https://scaling-parakeet-x5544xgp97xv3vpxr-3000.app.github.dev/lanches')
     .then(function(response) {
         return response.json();
     })
@@ -19,7 +20,7 @@ function buscarLanches(){
 
 function criarCardapio(lanches) {
     const section = document.querySelector('section');
-
+        //criando dinamicamente as divs
     lanches.forEach(lanche => {
         const card = document.createElement('div');
         card.classList.add('card');
@@ -29,7 +30,7 @@ function criarCardapio(lanches) {
         produto.classList.add('produto');
         const preco = document.createElement('div');
         preco.classList.add('preco');
-
+        //criando os elementos internos das divs
         const img = document.createElement('img');
         img.src = `../assets/${lanche.imagem}`;
         const h2 = document.createElement('h2');
@@ -40,7 +41,7 @@ function criarCardapio(lanches) {
         pPreco.textContent = lanche.preco.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});;
         const svgImg = document.createElement('img');
         svgImg.src = '../assets/carrinho.svg';
-
+        //adicionando os elementos criados
         preco.appendChild(pPreco);
         preco.appendChild(svgImg);
         produto.appendChild(h2);
