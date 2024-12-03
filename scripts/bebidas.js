@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function buscarBebidas(){
-    fetch('http://localhost:3000/bebidas/')
+    fetch('http://localhost:4888/bebidas')
     .then(function(response) {
         return response.json();
     })
