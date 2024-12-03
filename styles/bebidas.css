@@ -51,6 +51,7 @@ h1 {
 
 .card img {
     display: block;
+    width: 100px;
 }
 
 .informacoes {
@@ -69,24 +70,16 @@ h1 {
     margin-top: 24px;
 }
 
-.preco svg {
+.preco img {
     width: 28px;
     height: 28px;
+    filter: invert(1);
 }
 
-.preco svg:hover {
+.preco img:hover {
     cursor: pointer;
     transform: scale(1.1);
 }
-
-.preco path {
-    fill: var(--cor-fonte-secundaria);
-}
-
-.preco svg:hover path {
-    fill: var(--cor-primaria);
-}
-
 
 footer {
     position: fixed;

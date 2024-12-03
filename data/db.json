@@ -1,68 +1,60 @@
 {
-  "bebidas": {
-    "quentes": [
-      {
-        "nome": "Café Espresso",
-        "descricao": "Café espresso puro, feito com grãos selecionados.",
-        "preco": 6.50,
-        "imagem": "cafeExpresso.png"
-      },
-      {
-        "nome": "Capuccino",
-        "descricao": "Mistura de café, leite e chocolate em pó, finalizado com espuma de leite.",
-        "preco": 8.90,
-        "imagem": "capuccino.png"
-      },
-      {
-        "nome": "Café preto",
-        "descricao": "Café preto passado",
-        "preco": 5.50,
-        "imagem": "cafePreto.png"
-      }
-    ],
-    "geladas": [
-      {
-        "nome": "Suco Natural",
-        "descricao": "Escolha entre laranja, limão ou abacaxi.",
-        "preco": 7.00,
-        "imagem": "sucoNatural.png"
-      },
-      {
-        "nome": "Água",
-        "descricao": "Água mineral sem gás.",
-        "preco": 6.00,
-        "imagem": "agua.png"
-      }
-    ]
-  },
-  "lanches": {
-    "salgados": [
-      {
-        "nome": "Pão de Queijo",
-        "descricao": "Tradicional pão de queijo mineiro",
-        "preco": 4.50,
-        "imagem": "paoDeQueijo.png"
-      },
-      {
-        "nome": "Coxinha de Frango",
-        "descricao": "Coxinha recheada com frango desfiado e temperado.",
-        "preco": 5.00,
-        "imagem": "coxinha.png"
-      }
-    ],
-    "doces": [
-      {
-        "nome": "Bolo de Cenoura",
-        "descricao": "Fatia de bolo de cenoura com cobertura de chocolate.",
-        "preco": 6.00,
-        "imagem": "boloDeCenoura.png"
-      },
-      {
-        "nome": "Brownie",
-        "descricao": "Brownie de chocolate com pedaços de nozes.",
-        "preco": 7.50,
-        "imagem": "brownie.png"
-      }
-    ]
-  }
+  "bebidas": [
+    {
+      "nome": "Café Espresso",
+      "descricao": "Café espresso puro, feito com grãos selecionados.",
+      "preco": 6.50,
+      "imagem": "cafeExpresso.png"
+    },
+    {
+      "nome": "Capuccino",
+      "descricao": "Mistura de café, leite e chocolate em pó, finalizado com espuma de leite.",
+      "preco": 8.90,
+      "imagem": "capuccino.png"
+    },
+    {
+      "nome": "Café preto",
+      "descricao": "Café preto passado",
+      "preco": 5.50,
+      "imagem": "cafePreto.png"
+    },
+    {
+      "nome": "Suco Natural",
+      "descricao": "Escolha entre laranja, limão ou abacaxi.",
+      "preco": 7.00,
+      "imagem": "sucoNatural.png"
+    },
+    {
+      "nome": "Água",
+      "descricao": "Água mineral sem gás.",
+      "preco": 6.00,
+      "imagem": "agua.png"
+    }
+  ],
+  "lanches": [
+    {
+      "nome": "Pão de Queijo",
+      "descricao": "Tradicional pão de queijo mineiro",
+      "preco": 4.50,
+      "imagem": "paoDeQueijo.png"
+    },
+    {
+      "nome": "Coxinha de Frango",
+      "descricao": "Coxinha recheada com frango desfiado e temperado.",
+      "preco": 5.00,
+      "imagem": "coxinha.png"
+    },
+    {
+      "nome": "Bolo de Cenoura",
+      "descricao": "Fatia de bolo de cenoura com cobertura de chocolate.",
+      "preco": 6.00,
+      "imagem": "boloDeCenoura.png"
+    },
+    {
+      "nome": "Brownie",
+      "descricao": "Brownie de chocolate com pedaços de nozes.",
+      "preco": 7.50,
+      "imagem": "brownie.png"
+    }
+  ]
 }
