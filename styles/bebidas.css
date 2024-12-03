@@ -1,6 +1,18 @@
 header {
+    position: relative;
     padding: 16px;
     background-color: var(--cor-quaternaria);
+}
+
+header a {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+header a img {
+    display: block;
+    width: 40px;
 }
 
 .logo {
